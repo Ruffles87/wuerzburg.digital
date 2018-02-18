@@ -4,13 +4,14 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 }
 
-.box {
+.material-box {
+	background-color: #ffffff;
 	box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 	border-radius: 4px;
 	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.box:hover {
+.material-box:hover {
 	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
 }
 
@@ -145,11 +146,27 @@ tag {
 	color: #6772e5 !important;
 }
 
+#channel1 {
+	background-color: #6772e5;
+}
 
+.message-box {
+	border-radius: 4px;
+	background: #ffffff;
+	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
+	padding: 15px 20px;
+	margin: 4px;
+	padding: 10px 25px;
+	z-index: 99;
+}
 
+#hero-footer-notification {
+	margin-top: 120px;
+}
 
-
-
+ #footer-link {
+ 	color: #6772e5 !important;
+ }
 
 
 
