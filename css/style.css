@@ -8,25 +8,13 @@ background-attachment: fixed;
 	background-color: #ffffff;
 	box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
 	border-radius: 4px;
-	transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
-.material-box:hover {
-	box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+	margin: 120px 5px -200px;
 }
 
 #titel_top {
 	margin-bottom: 100px;
 }
 
-tag {
-	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-	background: #fff;
-  	border-radius: 2px;
-  	display: inline-block;
-  	margin: 1rem;
-  	position: relative;	
-}
 
 #angles {
 	width: 100%;
@@ -152,22 +140,229 @@ tag {
 
 .message-box {
 	border-radius: 4px;
-	background: #ffffff;
+	background: #32325d;
 	box-shadow: 0 4px 6px rgba(50,50,93,.11), 0 1px 3px rgba(0,0,0,.08);
-	padding: 15px 20px;
+	padding: 3px 0px 0px 0px;
 	margin: 4px;
-	padding: 10px 25px;
 	z-index: 99;
+}
 
+.common-light {
+	color: #c2d1ea;
+}
+
+.stronglight {
+	color: #fff;
 }
 
 #hero-footer-notification {
-	
+	margin-top: 40px;
 }
 
  #footer-link {
  	color: #6772e5 !important;
  }
+
+ .common-IntroText {
+ 	font-size: 24px;
+ 	line-height: 36px;
+ 	color: #525f7f;
+ }
+
+ .common-box {
+ 	overflow: hidden;
+ 	background: #fff;
+ 	border-radius: 4px;
+ 	box-shadow: 0 15px 35px rgba(50,50,93,.1), 0 5px 15px rgba(0,0,0,.07);
+ 	margin-top: 5%;
+ }
+
+.common-BodyText {
+	font-weight: 400 !important;
+	font-size: 17px !important;
+	line-height: 26px !important;
+	color: #6b7c93 !important;
+}
+
+.common-BodyTitle {
+	font-weight: 500;
+	font-size: 19px;
+	line-height: 28px;
+	color: #32325d;
+}
+
+.channel-list {
+	font-size: 19px;
+	color: #6b7c93;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.channel-list li {
+	display: inline-block;
+	white-space: nowrap;
+	margin: 10px 0;
+	width: 50%;
+}
+
+
+.common-list-item {
+	color: #6772e5;
+	font-weight: 500;
+}
+
+.common-email-list {
+	padding: 45px 50px 40px 60px;
+	text-align: right;
+	border-bottom: 2px solid #f6f9fc;
+	position: relative;
+}
+
+.common-email-list .overflow-icon {
+	position: absolute;
+	left: -32px;
+	bottom: 70px;
+}
+
+#button-spacing {
+	margin-top: 25px;
+}
+
+#common-notify {
+	background: #fff;
+}
+
+#mc-embedded-subscribe-form {
+	padding: 0 40px 45px;
+	position: relative;
+}
+
+
+.common-Field {
+	background: #fff;
+	box-shadow: 0 1px 3px rgba(50,50,93,.15), 0 1px 0 rgba(0,0,0,.02);
+	border-radius: 4px;
+	overflow: hidden;
+	font-size: 16px;
+	line-height: 22px;
+	color: #32325d;
+}
+
+.common-Field .email {
+	display: flex;
+	transition: box-shadow .15s ease;
+}
+
+.common-Field.email .submit-button {
+	margin: 0;
+	border: none;
+	outline: none;
+	background: transparent;
+	padding: 9px 13px;
+	font: inherit;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: .025em;
+	cursor: pointer;
+	position: relative;
+	transition: all .15s ease;
+	padding-left: 16px;
+}
+
+.common-Field.email .submit-button::before {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: 7px;
+	bottom: 7px;
+	width: 2px;
+	background: #f6f9fc;
+}
+
+.email-field {
+	border: none;
+	outline: none;
+	margin: 0;
+	padding: 9px 13px;
+	background: transparent;
+	font: inherit;
+	color: #32325d;
+}
+
+.common-Field.email .email-field {
+	flex: 1;
+	width: 50%;
+}
+
+.notify-header {
+	padding: 35px 115px 35px 50px;
+	overflow: hidden;
+	max-height: 265px;
+	position: relative;
+	width: 103%;
+}
+
+.notify-header .overflow-notify-icon {
+	position: absolute;
+	right: -40px;
+	top: 50%;
+	margin-top: -64px;
+}
+
+#rotatebox1 {
+	transform: rotate(-2deg);
+	margin: 10px;
+}
+
+#rotatebox2 {
+	transform: rotate(4deg);
+	margin: 10px;
+}
+
+#rotatebox3 {
+	transform: rotate(-1deg);
+	margin: 10px;
+}
+
+#rotatebox4 {
+	transform: rotate(1deg);
+	margin: 10px;
+}
+
+#rotatebox5 {
+	transform: rotate(-1deg);
+	margin: 10px;
+}
+
+#rotatebox6 {
+	transform: rotate( 3deg);
+	margin: 10px;
+}
+
+#rotatebox7 {
+	transform: rotate( -5deg);
+	margin: 10px;
+}
+
+.aFooter {
+	color: #6772e5;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
