@@ -352,7 +352,9 @@ background-attachment: fixed;
 	cursor: pointer;
 }
 
-
+.common-IntroHeadline {
+	margin-bottom: 40px !important;
+}
 
 
 
