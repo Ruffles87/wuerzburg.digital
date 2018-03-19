@@ -40,7 +40,7 @@ background-attachment: fixed;
 	align-self: flex-end;
 }
 
-#common-Button {
+a.button.common-Button {
 	white-space: nowrap;
 	display: inline-block;
 	height: 40px;
@@ -89,17 +89,13 @@ background-attachment: fixed;
 	transform-origin: 100% 0;
 }
 
-#robo-icon {
-	position: 
-}
 
-
-#background-transform {
+.background-transform {
 	position: relative;
 	margin-top: 110px;
 }
 
-#background-transform::before {
+.background-transform::before {
 	content: "";
 	position: absolute;
 	z-index: 0;
@@ -127,10 +123,10 @@ background-attachment: fixed;
 	font-weight: 600;
 }
 
-#section-title-grey {
+.section-title-grey {
 	text-transform: uppercase;
 	letter-spacing: .025em;
-	font-weight: 600;
+	font-weight: 600 !important;
 	color: #6772e5 !important;
 }
 
